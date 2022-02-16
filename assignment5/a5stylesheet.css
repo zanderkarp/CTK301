@@ -1,0 +1,82 @@
+body {
+  background-image: url(a5bg.png);
+}
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  background: white;
+  border: 0px solid red;
+  padding: 20px;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  padding: 0px 0px 10px 0px;
+  border-bottom: 3px solid black
+}
+
+.whitebg {
+  background-color: white;
+  text-align: justify;
+  border: 0px solid red;
+  padding: 25px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 20px 0px 20px 0px;
+  padding: 0;
+  border: 0px solid red;
+}
+
+nav li {
+  border: 0px solid black;
+  margin-right: 10px;
+  padding: 0px;
+  width: 125px;
+  display: inline-block;
+}
+
+nav li a {
+  background-color: darkblue;
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: blue;
+}
+
+.whitebg a {
+  text-decoration: none;
+  font-weight: bold;
+  color: blue;
+}
+
+.whitebg a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  color: blue;
+}
+
+.whitebg a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+footer {
+  font-family: Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: darkblue;
+
+  border: 5px solid white;
+  margin: 20px 0px 20px 0px;
+  padding: 25px;
+}
