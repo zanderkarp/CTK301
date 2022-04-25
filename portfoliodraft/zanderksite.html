@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Zander Karp Portfolio</title>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+	<link href="zanderkstylesheet.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+	<div id="wrapper">
+			<a href="zanderksite.html" class="headerimg"> <img src="images/headerPH.jpg" alt="Header Placeholder Image"></a>
+		<nav>
+			<ul>
+				<li id="navboxleft"><a href="zksartgallery.html">Art Gallery</a></li>
+				<li id="navboxmid"><a href="zksaboutme.html">About Me</a></li>
+				<li id="navboxmid"><a href="zksfaq.html">FAQ</a></li>
+				<li id="navboxright"><a href="zkssuggest.html">Suggestions</a></li>
+			</ul>
+		</nav>
+
+		<main>
+		<h2 id="htwo"> Latest Artwork Previews</h2>
+		<div id="myCarousel" class="carousel">
+		  <div class="carousel__slide"><img src="images/ZanderKarp01.jpg"></div>
+		  <div class="carousel__slide"><img src="images/jnvDT.jpg"></div>
+		  <div class="carousel__slide"><img src="images/ZanderKarp03.jpg"></div>
+		</div>
+	</main>
+
+		<footer class="textshadow">
+		<p>Copyright Zander Karp - Illinois State University</p>
+			<a href="https://twitter.com" target="_blank" class="bi bi-twitter"></a>
+		</footer>
+
+		<script>
+		const myCarousel = new Carousel(document.querySelector("#myCarousel"), {
+		  // Your options go here
+		  'slidesPerPage' : 1
+		});
+		</script>
+	</div>
+</body>
+</html>
