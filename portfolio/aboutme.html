@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>About Me - Zander Karp Portfolio</title>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+	<link href="zanderkstylesheet.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+	<div id="wrapper">
+		<a href="homepage.html" class="headerimg"></a>
+		<nav>
+			<ul>
+				<li id="navboxleft"><a href="artgallery.html">Art Gallery</a></li>
+				<li id="navboxmid"><a href="aboutme.html">About Me</a></li>
+				<li id="navboxmid"><a href="faq.html">FAQ</a></li>
+				<li id="navboxright"><a href="suggest.html">Suggestions</a></li>
+			</ul>
+		</nav>
+
+		<main>
+		<h2 id="htwo"> About Yours Truly</h2>
+		<img id="aboutmeportrait" src="images/aboutmepic.jpg" alt="Portrait Placeholder">
+		<div id="aboutmetext">
+			<p> Hey! I'm a sophomore studying Video Game Design at Illinois State University. <br>
+				Here are some cool things to know about me: <br>
+			<ul>
+				<li>I have two cats named Clark and Addison</li>
+				<li>My favorite single video game of all time is Skyrim</li>
+				<li>My favorite video games series is the Bioshock series</li>
+				<li>Favorite tv show at the moment is Demon Slayer</li>
+				<li>Favorite music artist of all time is Lana Del Rey</li>
+				<li>I play guitar and trumpet</li>
+				<li>I had a mullet in high school (BEFORE IT WAS COOL <i class="bi bi-emoji-expressionless"></i>)</li>
+			</ul>
+			<p> Click here for my Twitter -> <a href="https://twitter.com/zandercaesar" target="_blank" class="bi bi-twitter"></a></p>
+			<p> Click here for Illinos State's website -> <a href="https://illinoisstate.edu" target="_blank" class="bi bi-book-fill"></a></p>
+		</div>
+
+		<h2 id="htwo">Pictures of My Cats</h2>
+		<div id="myCarousel" class="carousel">
+			<div class="carousel__slide"><img src="images/cats1.jpg" alt="Picture 1 of the cats"></div>
+			<div class="carousel__slide"><img src="images/clark1.jpg" alt="Picture 1 of Clark"></div>
+			<div class="carousel__slide"><img src="images/addison1.jpg" alt="Picture 1 of Addison"></div>
+			<div class="carousel__slide"><img src="images/cats2.jpg" alt="Picture 2 of the cats"></div>
+			<div class="carousel__slide"><img src="images/clark2.jpg" alt="Picture 2 of Clark"></div>
+			<div class="carousel__slide"><img src="images/addison2.jpg" alt="Picture 2 of Addison"></div>
+			<div class="carousel__slide"><img src="images/cats3.jpg" alt="Picture 3 of the cats"></div>
+			<div class="carousel__slide"><img src="images/clark3.jpg" alt="Picture 3 of Clark"></div>
+			<div class="carousel__slide"><img src="images/addison3.jpg" alt="Picture 3 of Addison"></div>
+			<div class="carousel__slide"><img src="images/cats4.jpg" alt="Picture 4 of the cats"></div>
+		</div>
+	</main>
+
+		<footer class="textshadow">
+		<p>Copyright Zander Karp - Illinois State University <i class="bi bi-check-circle"></i></p>
+		</footer>
+
+		<script>
+		const myCarousel = new Carousel(document.querySelector("#myCarousel"), {
+			// Your options go here
+			'slidesPerPage' : 1
+		});
+		</script>
+
+	</div>
+</body>
+</html>
